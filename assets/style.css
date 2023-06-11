@@ -87,14 +87,6 @@ input[type="range"]::-webkit-slider-runnable-track {
   width: 100%;
 }
 
-input[type="range"]::-webkit-slider-runnable-track::before {
-  content: "";
-  position: absolute;
-  background-color: #d22;
-  height: 6px;
-  width: calc(100% - 24px);
-}
-
 input[type="checkbox"] {
   appearance: none;
   background-color: #fff;
