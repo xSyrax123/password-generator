@@ -41,7 +41,7 @@ function copyPassword() {
         alert("Password copied to clipboard!");
       })
       .catch((error) => {
-        console.error("Failed to copy password:", error);
+        console.error(`Failed to copy password: ${error}`);
       });
   }
 }
